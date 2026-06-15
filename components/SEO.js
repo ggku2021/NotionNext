@@ -100,7 +100,8 @@ const SEO = props => {
   const AUTHOR = siteConfig('AUTHOR')
   return (
     <Head>
-      <link rel='icon' href={favicon} />
+      <link rel='icon' href={favicon} /> 
+      <link rel='canonical' href={url} />
       <title>{title}</title>
       <meta name='theme-color' content={BACKGROUND_DARK} />
       <meta
